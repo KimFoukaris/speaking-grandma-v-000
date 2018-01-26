@@ -3,6 +3,8 @@ def speak_to_grandma(you)
     grandma = "HUH?! SPEAK UP, SONNY!"
   elsif you == "WHAT DID YOU EAT TODAY?"
     grandma = "NO, NOT SINCE 1938!"
+  elsif you == "WHAT DID YOU EAT TODAY?"
+    grandma = "NO, NOT SINCE 1938!"
   else you == "I LOVE YOU GRANDMA!"
     grandma = "I LOVE YOU TOO PUMPKIN!"
   end
