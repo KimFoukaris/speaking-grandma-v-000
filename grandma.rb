@@ -1,5 +1,4 @@
-def speak_to_grandma
-  says = gets.chomp
+def speak_to_grandma(says)
   if (says="I LOVE YOU GRANDMA!")
     puts "I LOVE YOU TOO PUMPKIN!"
   end
