@@ -1,9 +1,9 @@
-def speak_to_grandma(says)
-  if says!=says.upcase
+def speak_to_grandma(you)
+  if you!=you.upcase
     grandma = "HUH?! SPEAK UP, SONNY!"
-  elsif "WHAT DID YOU EAT TODAY?"
+  elsif you == "WHAT DID YOU EAT TODAY?"
     grandma = "NO, NOT SINCE 1938!"
-  else
+  else you == "I LOVE YOU GRANDMA!"
     grandma = "I LOVE YOU TOO PUMPKIN!"
   end
 end
