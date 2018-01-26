@@ -1,12 +1,10 @@
 def speak_to_grandma(you)
   if you!=you.upcase
     grandma = "HUH?! SPEAK UP, SONNY!"
-  elsif you == "WHAT DID YOU EAT TODAY?"
-    grandma = "NO, NOT SINCE 1938!"
-  elsif you == "WHAT DID YOU EAT TODAY?"
-    grandma = "NO, NOT SINCE 1938!"
-  else you == "I LOVE YOU GRANDMA!"
+  elsif you == "I LOVE YOU GRANDMA!"
     grandma = "I LOVE YOU TOO PUMPKIN!"
+  elsif you == you.upcase
+    grandma = "NO, NOT SINCE 1938!"
   end
 end
 
